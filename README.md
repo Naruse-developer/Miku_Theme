@@ -40,7 +40,7 @@ Ver 1.0 发布于2022-06-23
 ```bash
 rm -rf /usr/local/ServerStatus/web/*
 wget https://github.com/Naruse-developer/Warframe_theme/raw/master/web.zip
-unzip hotaru-theme.zip
+unzip web.zip
 mv ./dist/* /usr/local/ServerStatus/web/
 service status-server restart
 # systemctl restart status-server
