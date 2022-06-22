@@ -2,7 +2,7 @@
 
 The frontend of ServerStatus-Hotaru based on Vue 3.0
 
-基于Vue 3.0和Semantic UI打造的”船新“ServerStatus主题，借鉴了一点KRATOS主题的样式，模仿了可乐大佬分享的主题样式。
+基于Vue 3.0和Semantic UI打造的”船新“ServerStatus主题，模仿了可乐大佬主题样式。
 
 本仓库存放了ServerStatus-Hotaru默认主题的源码。
 
@@ -17,6 +17,22 @@ ServerStatus-Hotaru: https://github.com/CokeMine/ServerStatus-Hotaru
 原模板：
 
 https://github.com/cokemine/hotaru_theme
+
+### 功能 (Function)
+
+这里添加了额外的小功能
+
+Ver 1.0 发布于2022-06-23
+
+1. 当前默认语言为中文（繁体），简体中文和英语会在之后发布
+2. 当服务器的负载达到0.4以上和1.4以上时会有警告色 （黄色和橘红色），方便了解更多信息.
+
+### 功能自定义 (customization)
+想要更换警告色的条件或者颜色 ， 请修改下列文件
+
+```bash
+*/src/components/TableItem.vue
+```
 
 ## 效果演示
 
