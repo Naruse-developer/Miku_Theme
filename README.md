@@ -27,14 +27,14 @@ Ver 1.0 发布于2022-06-23
 1. 当前默认语言为中文（繁体），简体中文和英语会在之后发布
 2. 当服务器的负载达到0.4以上和1.4以上时会有警告色 （黄色和橘红色），方便了解更多信息.
 
-### 功能自定义 (customization)
+### 功能自定义 (Customization)
 想要更换警告色的触发条件或者颜色 , 请修改下列文件即可
 
 ```bash
 */src/components/TableItem.vue
 ```
 
-### 替换前端样式
+### 替换前端样式 (Replace style)
 想要更新到Warframe的样式,可以输入以下命令
 
 ```bash
@@ -46,7 +46,10 @@ service status-server restart
 # systemctl restart status-server
 ```
 
-## 效果演示
+### 碎碎念 (Other)
+服务端在某些CPU处理效能较差的情况下可能会有数据不更新,服务端停止的情况下,请使用防火墙只允许客户端的IP进入即可.
+
+## 效果演示 (Preview)
 
 ![](https://github.com/Naruse-developer/Warframe_theme/blob/master/demo/demo.png)
 
