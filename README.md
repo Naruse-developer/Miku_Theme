@@ -28,10 +28,22 @@ Ver 1.0 发布于2022-06-23
 2. 当服务器的负载达到0.4以上和1.4以上时会有警告色 （黄色和橘红色），方便了解更多信息.
 
 ### 功能自定义 (customization)
-想要更换警告色的条件或者颜色 ， 请修改下列文件
+想要更换警告色的触发条件或者颜色 , 请修改下列文件即可
 
 ```bash
 */src/components/TableItem.vue
+```
+
+### 替换前端样式
+想要更新到Warframe的样式,可以输入以下命令
+
+```bash
+rm -rf /usr/local/ServerStatus/web/*
+wget https://github.com/Naruse-developer/Warframe_theme/raw/master/web.zip
+unzip hotaru-theme.zip
+mv ./dist/* /usr/local/ServerStatus/web/
+service status-server restart
+# systemctl restart status-server
 ```
 
 ## 效果演示
