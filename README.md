@@ -10,9 +10,7 @@ The frontend of ServerStatus-Hotaru based on Vue 3.0
 
 关于自定义主题：
 
-如果仅修改标题、副标题、页脚和更新数据的间隔，可以直接修改根目录下的`config.js`文件。其他如更换素材、背景图片、对其他文字的修改等建议修改本仓库代码并重新打包。
-
-ServerStatus-Hotaru: https://github.com/CokeMine/ServerStatus-Hotaru
+如果仅修改标题、副标题、页脚和更新数据的间隔，可以直接修改根目录下的`config.js`文件。其他如更换素材、背景图片、对其他文字的修改等建议修改本仓库代码并重新打包
 
 原模板：
 
@@ -28,14 +26,21 @@ Ver 1.0 发布于2022-06-23
 2. 当服务器的负载达到0.4以上和1.4以上时会有警告色 （黄色和橘红色），方便了解更多信息.
 
 ### 功能自定义 (Customization)
+
 想要更换警告色的触发条件或者颜色 , 请修改下列文件即可
 
 ```bash
 */src/components/TableItem.vue
 ```
 
+### 安装 (Install)
+
+使用这个探针主题前需要安装可乐大佬的探针脚本
+请前往 ServerStatus-Hotaru: https://github.com/CokeMine/ServerStatus-Hotaru
+
 ### 替换前端样式 (Replace style)
-想要更新到Warframe的样式,可以输入以下命令
+
+安装完成后想要更新到Warframe的样式,可以输入以下命令
 
 ```bash
 rm -rf /usr/local/ServerStatus/web/*
@@ -47,16 +52,28 @@ service status-server restart
 ```
 
 ### 碎碎念 (Other)
+
 服务端在某些CPU处理效能较差的情况下可能会有数据不更新,服务端停止的情况
 
 **请使用防火墙只允许客户端的IP进入即可.**
 
-## 效果演示 (Preview)
+### 效果演示 (Preview)
 
 ![](https://github.com/Naruse-developer/Warframe_theme/blob/master/demo/demo.png)
 
 原图来源 (Source)
 https://mobile.twitter.com/moitoi/status/1375518164516175874/photo/1
+
+## 警示信息 (security alerts)
+
+安全性漏洞共27个(0/27),修复工作可能会比预期时间要短,修复后会立即更新.
+
+以下是部分漏洞:
+<font color="DarkRed" size=>
+    CVE-2020-28469
+    CVE-2021-3664/3803/3918/23382/23424/3807/3749/44906/43138/42740/....
+    CVE-2022-0686/0512/0639/0691/24771/24772/0122/0155/0536/29078/1650/...
+</font>
 
 ## Project setup
 ```
