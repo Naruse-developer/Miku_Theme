@@ -66,6 +66,7 @@ https://mobile.twitter.com/moitoi/status/1375518164516175874/photo/1
 
 ## 警示信息 (security alerts)
 
+这些漏洞不影响使用.但需留意
 安全性漏洞共27个(0/27),修复工作可能会比预期时间要短,修复后会立即更新.
 
 以下是部分漏洞:
