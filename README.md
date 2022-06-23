@@ -64,13 +64,13 @@ service status-server restart
 原图来源 (Source)
 https://mobile.twitter.com/moitoi/status/1375518164516175874/photo/1
 
-## 警示信息 (security alerts)
+## 警示信息 (Security alerts)
 
 这些漏洞不影响使用.但需留意
 安全性漏洞共27个(0/27),修复工作可能会比预期时间要短,修复后会立即更新.
 
 以下是部分漏洞:
-<font color=DarkRed size=7>
+<font color="DarkRed">
     CVE-2020-28469
     CVE-2021-3664/3803/3918/23382/23424/3807/3749/44906/43138/42740/....
     CVE-2022-0686/0512/0639/0691/24771/24772/0122/0155/0536/29078/1650/...
