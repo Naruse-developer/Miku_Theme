@@ -18,9 +18,15 @@ https://github.com/cokemine/hotaru_theme
 
 ### 功能 (Function)
 
-这里添加了额外的小功能
+Ver 1.2 发布于2022-06-24
+
+安全修补程式
+
+1. Fix Vulnerability Dependencies  (27/27 已经修复完成)
 
 Ver 1.0 发布于2022-06-23
+
+这里添加了额外的小功能
 
 1. 当前默认语言为中文（繁体），简体中文和英语会在之后发布
 2. 当服务器的负载达到0.4以上和1.4以上时会有警告色 （黄色和橘红色），方便了解更多信息.
@@ -64,10 +70,11 @@ service status-server restart
 原图来源 (Source)
 https://mobile.twitter.com/moitoi/status/1375518164516175874/photo/1
 
-## 警示信息 (Security alerts)
+## Fix Vulnerability Dependencies (Done)
 
-这些漏洞不影响使用.但需留意
-安全性漏洞共27个(0/27),修复工作可能会比预期时间要短,修复后会立即更新.
+安全性漏洞共27个(27/27),全部修复完成
+
+Commit : https://github.com/Naruse-developer/Warframe_theme/commit/8271e7930f8195b7220769783a320be5c5ff6eb6
 
 以下是部分漏洞:
 
@@ -77,7 +84,7 @@ CVE-2022-0686/0512/0639/0691/24771/24772/0122/0155/0536/29078/1650/...
 
 ## Project setup
 ```
-npm install or npm install --force
+npm install or npm i
 ```
 
 ### Compiles and hot-reloads for development
