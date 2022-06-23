@@ -1,10 +1,10 @@
 {
-  "name": "hotaru_theme",
+  "name": "warframe_theme",
   "version": "0.4.2",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/CokeMine/Hotaru_theme.git"
+    "url": "https://github.com/Naruse-developer/Warframe_theme.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
