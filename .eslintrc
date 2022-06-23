@@ -32,5 +32,9 @@
       1,
       "always"
     ]
+  },
+  "globals":{
+    "StatusItem":true,
+    "BoxItem":true
   }
 }

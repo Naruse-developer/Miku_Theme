@@ -41,7 +41,7 @@ export default defineComponent({
         updated.value = Number(res.data.updated);
       })
       .catch(err => console.log(err));
-    onMounted(() => runFetch() && (timer = setInterval(runFetch, interval * 1000)));
+    onMounted(() => 1 && (timer = setInterval(runFetch, interval * 1000)));
     onBeforeUnmount(() => clearInterval(timer));
     return {
       servers,
