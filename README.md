@@ -70,7 +70,7 @@ service status-server restart
 原图来源 (Source)
 https://mobile.twitter.com/moitoi/status/1375518164516175874/photo/1
 
-## Fix Vulnerability Dependencies (Done)
+### Fix Vulnerability Dependencies (Done)
 
 安全性漏洞共27个(27/27),全部修复完成
 
