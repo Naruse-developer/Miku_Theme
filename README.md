@@ -87,7 +87,7 @@ CVE-2022-0686/0512/0639/0691/24771/24772/0122/0155/0536/29078/1650/...
 npm install or npm i
 ```
 
-*If you think the installation is taking longer than expected, download **node_modules.zip** Skip this step**
+*If you think the installation is taking longer than expected, download **node_modules.zip** Skip this step*
 
 ### Compiles and hot-reloads for development
 ```
