@@ -26,6 +26,8 @@ Ver 1.3 发布于2022-9-30
 
 Regular Expression Denial of Service (CVE-2022-25858)
 
+Commit : https://github.com/Naruse-developer/Warframe_theme/commit/259ca053a8da54b1ebe6971562f17f01bc50b26c
+
 Ver 1.2 发布于2022-06-24
 
 安全修补程式
