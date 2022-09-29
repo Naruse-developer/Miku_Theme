@@ -18,6 +18,14 @@ https://github.com/cokemine/hotaru_theme
 
 ### 功能 (Function)
 
+Ver 1.3 发布于2022-9-30
+
+安全修补程式
+
+1. Fix Vulnerability Dependencies
+
+Regular Expression Denial of Service (CVE-2022-25858)
+
 Ver 1.2 发布于2022-06-24
 
 安全修补程式
