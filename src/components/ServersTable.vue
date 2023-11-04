@@ -54,13 +54,20 @@ export default defineComponent({
   border: none;
   text-align: center;
   vertical-align: middle;
-  background-color:#f5f5f5;
-  opacity: 0.8;
-;;
+  background-color: #282828;
+  opacity: 0.75;
+}
+
+.ui.table tr {
+  background-color: #282828;
+}
+
+.ui.table tr td {
+  color: #fff;
 }
 
 #table thead tr th {
-  color: #9da2a6;
+  color: #fff;
   white-space: nowrap;
 }
 </style>

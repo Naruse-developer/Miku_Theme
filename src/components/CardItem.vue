@@ -48,7 +48,9 @@ div.card {
   padding: 24px;
   box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
   border-radius: .5rem;
-  background-color: rgba(255, 255, 255, .8);
+  background-color:#282828;
+  opacity: .75;
+  color: #fff;
 }
 
 div.card div.card-header span {
@@ -58,7 +60,7 @@ div.card div.card-header span {
 }
 
 div.card div.card-header p {
-  color: #919699;
+  color: #d7d7d7;
 }
 
 div.card div.card-content p {
