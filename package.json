@@ -1,10 +1,10 @@
 {
-  "name": "warframe_theme",
+  "name": "Miku_Theme",
   "version": "0.4.2",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Naruse-developer/Warframe_theme.git"
+    "url": "https://github.com/Naruse-developer/Miku_theme.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",

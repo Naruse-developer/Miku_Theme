@@ -23,17 +23,17 @@ export default defineComponent({
   height: 25rem;
   position: relative;
   /*Replace your header image at this place!*/
-  background: url("../assets/img/cover.jpg") no-repeat center;
-  background-size:cover;
+  /* background: url("../assets/img/cover.jpg") no-repeat center; */
+  /* background-size: cover; */
 }
 
 #header::after {
-  content: 'TENNO CON 2021';
+  content: 'マジカルミライ 2023';
   position: absolute;
   right: 15px;
   bottom: 0;
   z-index: 2;
-  color: #CDCDCD;
+  color: #05f4fc;
   text-shadow: 1px 1px 1px #666;
 }
 
@@ -55,6 +55,10 @@ export default defineComponent({
 #header p {
   font-size: 1.5rem;
   color: aliceblue;
+}
+
+img {
+  width: 450px;
 }
 
 @media screen and (max-width:768px) {

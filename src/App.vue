@@ -1,12 +1,12 @@
 <template>
-  <the-header/>
-  <the-error v-show="!servers"/>
+  <the-header />
+  <the-error v-show="!servers" />
   <div class="container">
-    <servers-table :servers="servers"/>
-    <update-time :updated="updated"/>
-    <servers-card :servers="servers"/>
+    <servers-table :servers="servers" />
+    <update-time :updated="updated" />
+    <servers-card :servers="servers" />
   </div>
-  <the-footer/>
+  <the-footer />
 </template>
 
 <script lang="ts">
@@ -54,7 +54,11 @@ export default defineComponent({
 <style>
 body {
   /*Replace your background image at this place!*/
-  background: url("./assets/img/bg_parts.png") repeat-y left top, url('./assets/img/bg.png') repeat left top;
+  background: url('./assets/img/hero_img_miku.png') no-repeat, url("./assets/img/bg_common.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-size: contain;
+
 }
 
 /*Global*/
@@ -76,31 +80,40 @@ div.bar {
     margin: 0 .8rem;
   }
 
-  #table thead tr th, #table tr.tableRow td {
+  #table thead tr th,
+  #table tr.tableRow td {
     padding: .7em;
   }
 }
 
 @media only screen and (max-width: 1075px) {
-  #type, tr td:nth-child(3) {
+
+  #type,
+  tr td:nth-child(3) {
     display: none;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  html, body {
+
+  html,
+  body {
     font-size: 13px;
   }
 }
 
 @media only screen and (max-width: 910px) {
-  #location, tr td:nth-child(4) {
+
+  #location,
+  tr td:nth-child(4) {
     display: none;
   }
 }
 
 @media (max-width: 768px) {
-  html, body {
+
+  html,
+  body {
     font-size: 12px;
   }
 
@@ -124,36 +137,46 @@ div.bar {
 }
 
 @media only screen and (max-width: 720px) {
-  #uptime, tr td:nth-child(5) {
+
+  #uptime,
+  tr td:nth-child(5) {
     display: none;
   }
 }
 
 @media only screen and (max-width: 660px) {
-  #load, tr td:nth-child(6) {
+
+  #load,
+  tr td:nth-child(6) {
     display: none;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  #traffic, tr td:nth-child(8) {
+
+  #traffic,
+  tr td:nth-child(8) {
     display: none;
   }
 }
 
 @media only screen and (max-width: 533px) {
-  #name, tr td:nth-child(2) {
+
+  #name,
+  tr td:nth-child(2) {
     min-width: 20px;
     max-width: 60px;
     text-overflow: ellipsis;
     overflow: hidden;
   }
 
-  #hdd, tr td:nth-child(11) {
+  #hdd,
+  tr td:nth-child(11) {
     display: none;
   }
 
-  #cpu, #ram {
+  #cpu,
+  #ram {
     min-width: 20px;
     max-width: 40px;
   }

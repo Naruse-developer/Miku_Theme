@@ -19,6 +19,7 @@ export default defineComponent({
 .footer p {
   text-align: center;
   padding-bottom: 15px;
+  color: #fff;
 }
 
 .footer p a {

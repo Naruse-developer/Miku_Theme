@@ -92,6 +92,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
 tr.tableRow {
   background-color: rgba(249, 249, 249, .8);
   vertical-align: middle;

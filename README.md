@@ -1,8 +1,8 @@
-# Warframe_theme
+# Miku_theme
 
 The frontend of ServerStatus-Hotaru based on Vue 3.0
 
-基于Vue 3.0和Semantic UI打造的”船新“ServerStatus主题，模仿了可乐大佬主题样式。
+基于Vue 3.0和Semantic UI打造的”船新“ServerStatus主题，基於原模板进行修改。
 
 本仓库存放了ServerStatus-Hotaru默认主题的源码。
 
@@ -18,21 +18,25 @@ https://github.com/cokemine/hotaru_theme
 
 ### 功能 (Function)
 
-Ver 1.3 发布于2022-9-30
+ver 2.0
+
+新增模板 : マジカルミライ 2023 图片来源 : https://magicalmirai.com/2023/
+> [!WARNING]  
+> 图片包含版权 , 请勿用于商用 ! ! !
 
 安全修补程式
 
-1. Fix Vulnerability Dependencies
+ver 1.21 发布于2023-11-4
+
+Commit : https://github.com/Naruse-developer/Miku_Theme/commit/7f97a963dc0b797a457b9a0bd9263ef2bde574ce
+
+Ver 1.2 发布于2022-9-30
 
 Regular Expression Denial of Service (CVE-2022-25858)
 
-Commit : https://github.com/Naruse-developer/Warframe_theme/commit/259ca053a8da54b1ebe6971562f17f01bc50b26c
+Commit : https://github.com/Naruse-developer/Miku_theme/commit/259ca053a8da54b1ebe6971562f17f01bc50b26c
 
-Ver 1.2 发布于2022-06-24
-
-安全修补程式
-
-1. Fix Vulnerability Dependencies  (27/27 已经修复完成)
+Ver 1.1 发布于2022-06-24
 
 Ver 1.0 发布于2022-06-23
 
@@ -45,7 +49,7 @@ Ver 1.0 发布于2022-06-23
 
 想要更换警告色的触发条件或者颜色 , 请修改下列文件即可
 
-```bash
+```javascript
 */src/components/TableItem.vue
 ```
 
@@ -60,7 +64,7 @@ Ver 1.0 发布于2022-06-23
 
 ```bash
 rm -rf /usr/local/ServerStatus/web/*
-wget https://github.com/Naruse-developer/Warframe_theme/raw/master/web.zip
+wget https://github.com/Naruse-developer/Miku_Theme/releases/download/2.0/web.zip
 unzip web.zip
 mv ./dist/* /usr/local/ServerStatus/web/
 service status-server restart
@@ -75,22 +79,20 @@ service status-server restart
 
 ### 效果演示 (Preview)
 
+新版本样式
+
 ![](https://github.com/Naruse-developer/Warframe_theme/blob/master/demo/demo.png)
+图片来源 : https://magicalmirai.com/2023/
+
+> [!WARNING]  
+> 图片包含版权 , 请勿用于商用 ! ! !
+
+旧版本样式
+
+![](https://github.com/Naruse-developer/Warframe_theme/blob/master/demo/old.png)
 
 原图来源 (Source)
 https://mobile.twitter.com/moitoi/status/1375518164516175874/photo/1
-
-### Fix Vulnerability Dependencies (Done)
-
-安全性漏洞共27个(27/27),全部修复完成
-
-Commit : https://github.com/Naruse-developer/Warframe_theme/commit/8271e7930f8195b7220769783a320be5c5ff6eb6
-
-以下是部分漏洞:
-
-CVE-2021-3664/3803/3918/23382/23424/3807/3749/44906/43138/42740/....
-
-CVE-2022-0686/0512/0639/0691/24771/24772/0122/0155/0536/29078/1650/...
 
 ## Project setup
 ```
