@@ -17,6 +17,7 @@ The frontend of ServerStatus-Hotaru based on Vue 3.0
 https://github.com/cokemine/hotaru_theme
 
 ### 功能 (Function)
+样式更新
 
 ver 2.0
 
@@ -60,16 +61,9 @@ Ver 1.0 发布于2022-06-23
 
 ### 替换前端样式 (Replace style)
 
-安装完成后想要更新到Warframe的样式,可以输入以下命令
+请前往Releases页面下载最新的样式 (已经包含代码提示)
 
-```bash
-rm -rf /usr/local/ServerStatus/web/*
-wget https://github.com/Naruse-developer/Miku_Theme/releases/download/2.0/web.zip
-unzip web.zip
-mv ./dist/* /usr/local/ServerStatus/web/
-service status-server restart
-# systemctl restart status-server
-```
+https://github.com/Naruse-developer/Miku_Theme/releases/
 
 ### 碎碎念 (Other)
 
