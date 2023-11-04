@@ -60,7 +60,7 @@ Ver 1.0 发布于2022-06-23
 
 ### 替换前端样式 (Replace style)
 
-安装完成后想要更新到Warframe的样式,可以输入以下命令
+安装完成后想要更新到此样式,可以输入以下命令
 
 ```bash
 rm -rf /usr/local/ServerStatus/web/*
