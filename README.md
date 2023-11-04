@@ -61,11 +61,7 @@ Ver 1.0 发布于2022-06-23
 
 ### 替换前端样式 (Replace style)
 
-<<<<<<< HEAD
 请前往Releases页面下载最新的样式 (已经包含代码提示)
-=======
-安装完成后想要更新到此样式,可以输入以下命令
->>>>>>> 52c4cd9d74c579d1b3140d0e3dfa5ff4f04843c1
 
 https://github.com/Naruse-developer/Miku_Theme/releases/
 
