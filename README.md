@@ -19,11 +19,13 @@ https://github.com/cokemine/hotaru_theme
 ### 功能 (Function)
 样式更新
 
+ver 2.1
+
+新增模板 : マジカルミライ 2024 图片来源 : https://magicalmirai.com/2024/
+
 ver 2.0
 
 新增模板 : マジカルミライ 2023 图片来源 : https://magicalmirai.com/2023/
-> [!WARNING]  
-> 图片包含版权 , 请勿用于商用 ! ! !
 
 安全修补程式
 
@@ -76,7 +78,7 @@ https://github.com/Naruse-developer/Miku_Theme/releases/
 新版本样式
 
 ![](https://github.com/Naruse-developer/Warframe_theme/blob/master/demo/demo.png)
-图片来源 : https://magicalmirai.com/2023/
+原图来源 (Source) : https://magicalmirai.com/2024/
 
 > [!WARNING]  
 > 图片包含版权 , 请勿用于商用 ! ! !
@@ -85,8 +87,7 @@ https://github.com/Naruse-developer/Miku_Theme/releases/
 
 ![](https://github.com/Naruse-developer/Warframe_theme/blob/master/demo/old.png)
 
-原图来源 (Source)
-https://mobile.twitter.com/moitoi/status/1375518164516175874/photo/1
+原图来源 (Source) : https://magicalmirai.com/2023/
 
 ## Project setup
 ```

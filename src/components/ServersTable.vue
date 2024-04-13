@@ -25,7 +25,7 @@
     </tbody>
   </table>
   <p class="w_text"> * 當負載超過了50%(0.50),伺服器處理效能會降低,並會在運行狀態上顯示過載中且背景改為黃色. </p>
-  <p class="w_text"> * 當負載超過了150%(1.5),伺服器負載達到極限值,並會在運行狀態上顯示過載中且背景改為紅色. </p>
+  <p class="w_text"> * 當負載超過了150%(1.5),伺服器負載達到極限值,並會在運行狀態上顯示過載中且背景改為橙色. </p>
 </template>
 <script lang="ts">
 import { defineComponent, PropType } from 'vue';
@@ -46,7 +46,7 @@ export default defineComponent({
 </script>
 <style>
 .w_text {
-  color: #fff;
+  color: #000000;
 }
 
 #table {
@@ -54,7 +54,7 @@ export default defineComponent({
   border: none;
   text-align: center;
   vertical-align: middle;
-  background-color: #282828;
+  background-color: #000;
   opacity: 0.75;
 }
 

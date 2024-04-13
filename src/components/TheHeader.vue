@@ -28,7 +28,7 @@ export default defineComponent({
 }
 
 #header::after {
-  content: 'マジカルミライ 2023';
+  content: 'マジカルミライ 2024';
   position: absolute;
   right: 15px;
   bottom: 0;

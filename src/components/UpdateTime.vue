@@ -47,6 +47,6 @@ export default defineComponent({
 .updated {
   margin-bottom: -15px;
   margin-left: 5px;
-  color: #fff;
+  color: #000;
 }
 </style>

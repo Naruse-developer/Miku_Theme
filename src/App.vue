@@ -54,11 +54,14 @@ export default defineComponent({
 <style>
 body {
   /*Replace your background image at this place!*/
-  background: url('./assets/img/hero_img_miku.png') no-repeat, url("./assets/img/bg_common.jpg");
-  background-attachment: fixed;
+  background: url("./assets/img/bg_hero.jpg") fixed;
+  
+}
+
+#app{
+  background: url('./assets/img/hero_img_miku.png') no-repeat fixed;
   background-position: right;
   background-size: contain;
-
 }
 
 /*Global*/
