@@ -54,13 +54,14 @@ export default defineComponent({
 <style>
 body {
   /*Replace your background image at this place!*/
-  background: url("./assets/img/bg_hero.jpg") fixed;
-  
+  /* background: url("./assets/img/bg_hero.jpg") fixed; */
+  background: url("./assets/img/hero_img_bg.webp") fixed;
+
 }
 
-#app{
+#app {
   background: url('./assets/img/hero_img_miku.png') no-repeat fixed;
-  background-position: right;
+  background-position: 100%;
   background-size: contain;
 }
 
@@ -133,9 +134,15 @@ div.bar {
     margin-bottom: 0.6rem;
   }
 
-  #app #header {
+  #header {
     height: 20rem;
     /*Replace your header image (for mobile use) at this place!*/
+  }
+
+  #app {
+    background: url('./assets/img/hero_img_miku_s.webp') no-repeat fixed;
+    background-position: 100%;
+    background-size: contain;
   }
 }
 
